@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+body{ 
+    background-color: #000000;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    margin-top: 10px;
+    }
+
+.title{
+    font-size:55px;
+    margin-top: 10px;
+}
+
+.hgif{
+    text-align: center;
+}
+.name, .menu,a{
+    color: white;
+    text-align:center;
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.head{
+    background-color: #5673F5;
+    position: fixed;
+    width: 100%;
+    padding: 1px;
+    top: 0;
+}
+
+strong{
+    color: #5673F5;
+    font-size: 44px;
+}
+
+.divider{
+    border-top: 2px solid white;
+    width: 100%;
+    margin: 10px;
+}
+
+.feed{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.square{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+}
+
+.square2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+}
+
+.square3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+}
