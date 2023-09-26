@@ -97,6 +97,7 @@ main{
 strong{
     color: #5673F5;
     font-size: 44px;
+
 }
 
 .divider{
@@ -106,10 +107,14 @@ strong{
 }
 
 .feed{
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+.feed p{
+    margin: 46px 46px 46px 46px;
 }
 
 .square{
@@ -118,19 +123,26 @@ strong{
     max-width: 1050px;
     margin: auto;
     align-items: center;
+    text-align: center;
 }
 
 .square strong{
     font-size: 40px;
-    text-align: center;
 }
 
 .square2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    max-width: 800px;
+    max-width: 1050px;
     margin: auto;
     align-items: center;
+}
+
+.square2 img{
+    margin: 54px 54px 54px 54px;
+}
+.square2 p{
+    margin: 46px 20px 46px 30px;
 }
 
 .square3{
@@ -139,9 +151,22 @@ strong{
     max-width: 1050px;
     margin: auto;
     align-items: center;
+    text-align: center;
+}
+
+.square3 p{
+    margin: 46px 20px 46px 30px;
+    text-align: left;
 }
 
 .square3  strong{
     font-size: 40px;
-    text-align: center;
+}
+
+.feedfooter{
+    text-align: right;
+    display: inline-block;
+    color: white;
+    font-size: smaller;
+    padding: 0px 45px 0px 45px;
 }
