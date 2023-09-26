@@ -34,9 +34,13 @@ footer h4{
 }
 
 .name a{
-    padding: 0px 45px 0px 45px;
+    padding: 0px 55px 0px 55px;
     display: inline-block;
     color: white;
+}
+
+.name a:hover h3{
+    color: #5673F5;
 }
 
 .head{
@@ -86,6 +90,9 @@ nav h5{
 .names a{
     color: white;
     padding: 0px 45px 0px 45px;
+}
+.names a:hover h5{
+    color: #5673F5;
 }
 
 main{
@@ -164,9 +171,22 @@ strong{
 }
 
 .feedfooter{
-    text-align: right;
+    background-color: black;
     display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 1px;
+    bottom: 0;
+    left: 0;
+}
+
+.feedfooter h5{
+    font-family:'Times New Roman', Times, serif;
     color: white;
-    font-size: smaller;
-    padding: 0px 45px 0px 45px;
+    font-size: 13px;
+}
+
+.feedfooter a:hover h5{
+    color: #5673F5;
 }
